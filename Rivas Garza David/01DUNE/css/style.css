@@ -1,0 +1,25 @@
+    header {
+        display: flex;
+        width: 100;
+        height: 5rem;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #F2AF69;
+    }
+.e2_9 { 
+	background-color:rgba(242.00000077486038, 175.00000476837158, 105.00000134110451, 1);
+	width:958px;
+	height:39px;
+	border-top-left-radius:69px;
+	border-top-right-radius:69px;
+	border-bottom-left-radius:69px;
+	border-bottom-right-radius:69px;
+}
+
+
+    ul{
+        display: flex;
+        text-decoration: none;
+        gap: 1.5rem;
+        list-style: none;
+    }
