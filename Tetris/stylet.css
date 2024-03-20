@@ -1,0 +1,202 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("tetris.png");
+    background-size: 1310px;
+    background-color: #1a1a1a;
+    font-family: 'Pixel_NES', 'Comic Sans SM';
+    
+p{
+    font-size: 25px;
+text-align: right;
+color: white;
+}
+}
+aside#left{
+    background: rgba(26, 26, 26, 0.7);
+    height: 680px;
+    width: 600px;
+    color: aliceblue;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+
+}
+@font-face {
+    font-family: Pixel_NES;
+    src: url(Pixel_NES.otf);
+}
+.menu{
+    position: relative;
+    display: inline-block;
+}
+.menu .otro{
+    border-width: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color: #5ce430 #862417 #3a5c80 #e4e594;
+    
+}
+
+
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #fce4a0;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,#fce4a0 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+width: calc(40%);
+  border: 0;
+font-family: 'Pixel_Nes', 'Comic Sans SM';
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: absolute;
+  top: 17%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: #fce4a0;
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: white;
+  color: black;
+}
+.button-historia {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #d82800;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: #d82800;
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,#d82800 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  width: calc(30%);
+    border: 0;
+  font-family: 'Pixel_Nes', 'Comic Sans SM';
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 29%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .button-historia:hover,
+  .button-historia:focus-visible{
+    --_p: 0px;
+    outline-color: #d82800;
+    outline-offset: .05em;
+  }
+  
+  .button-historia:active {
+    background: white;
+    color: black;
+  }
+  .button-variantes {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #3cbcfc;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: #3cbcfc;
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,#3cbcfc 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  width: calc(31%);
+    border: 0;
+  font-family: 'Pixel_Nes', 'Comic Sans SM';
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 29%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .button-variantes:hover,
+  .button-variantes:focus-visible{
+    --_p: 0px;
+    outline-color: #3cbcfc;
+    outline-offset: .05em;
+  }
+  
+  .button-variantes:active {
+    background: white;
+    color: black;
+  }
+  .button-informacion {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #fce4a0;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,#fce4a0 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  width: calc(40%);
+    border: 0;
+  font-family: 'Pixel_Nes', 'Comic Sans SM';
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .button-informacion:hover,
+  .button-informacion:focus-visible{
+    --_p: 0px;
+    outline-color: #fce4a0;
+    outline-offset: .05em;
+  }
+  
+  .button-informacion:active {
+    background: white;
+    color: black;
+  }
+  .Tetrisgif {
+    position: absolute;
+    top: 70%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+  }
+  

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./YonezuYankee.jpg);
+    background-size: cover;
+    color: #fffb00;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.userlogin{
+    background-color: aliceblue;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid #ffc0ff;
+    margin-top: 10%;
+}
+.title{
+    font-size: 28px;
+    font-style: italic;
+    color: brown;
+}
+.userid{
+    margin-left: 50px;
+    margin-right: 5px;
+    padding: 5px;
+    float: left;
+    height: 25px;
+    width: 300px;
+    border: solid 2px #660000;
+    border-radius: 10px;
+}
+.buttons{
+    margin-top: 20px;
+    display: inline-block;
+}
+.buttons button{
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+
+}
+.buttons img{
+    width: 15px;
+    height: 15px;
+}
+.olvidar{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
