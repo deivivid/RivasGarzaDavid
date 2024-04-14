@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invertimiento de capital</title>
+    <script src="Banco.js"></script>
+</head>
+<body>
+    <form method="post" name="formulario" id="formulario" onsubmit="return validarn(event)">
+    <p>
+        Ingrese cuanto capital desea ingresar para saber cuanto dinero obtendra despues de un mes.
+    </p>
+    <Label>Capital a invertir:
+    <br>
+    <input type="number" name="capital" id="cantidadi"></Label>
+    <br>
+    <input type="button" value="Calcular Interes" name="Enviar" onclick="ganancia()">
+    <br>
+    <input type="reset" name="borrari" value="Borrar Datos" onclick="borrar()">
+</form>
+</body>
+</html>

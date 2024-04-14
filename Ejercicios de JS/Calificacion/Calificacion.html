@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificacion</title>
+    <script src="./Calificacion.js"></script>
+</head>
+<body>
+    <form method="post" name="formulario" id="formulario" onsubmit="return validarn(event)">
+        <p>
+            Ingrese las calificaciones correspondientes para sacar su promedio total.
+        </p>
+        <Label>Parcial 1:
+        <br>
+        <input type="number" name="parcial1" id="calif1"></Label>
+        <br>
+        <Label>Parcial 2:
+        <br>
+        <input type="number" name="parcial2" id="calif2"></Label>
+        <br>
+        <Label>Parcial 3:
+        <br>
+        <input type="number" name="parcial3" id="calif3"></Label>
+        <br>
+        <Label>Examen Final:
+        <br>
+        <input type="number" name="examen" id="exameni"></Label>
+        <br>
+        <Label>Trabajo Final: 
+        <br>
+        <input type="number" name="trabajo" id="trabajoi"></Label>
+        <br>
+        <br>
+        <input type="button" value="Calcular" name="Enviar" onclick="comision()">
+        <br>
+        <br>
+        <input type="reset" name="borrari" value="Borrar Datos" onclick="borrar()">
+        
+    </form>
+    
+</body>
+</html>

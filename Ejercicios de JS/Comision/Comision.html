@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comision</title>
+    <script src="Comision.js"></script>
+</head>
+<body>
+    <form method="post" name="formulario" id="formulario" onsubmit="return validarn(event)">
+        <p>
+            Ingrese sus ventas y ganancias en los espacios para calcular su sueldo bruto 
+        </p>
+        <Label>Venta 1:
+        <br>
+        <input type="number" name="venta1" id="cantidad1"></Label>
+        <br>
+        <Label>Venta 2: 
+        <br>
+        <input type="number" name="venta2" id="cantidad2"></Label>
+        <br>
+        <Label>Venta 3:
+        <br>
+        <input type="number" name="venta3" id="cantidad3"></Label>
+        <br>
+        <Label>Sueldo base:
+        <br>
+        <input type="number" name="sueldo" id="sueldoi"></Label>
+        <br>
+        <input type="button" value="Calcular" name="Enviar" onclick="comision()">
+        <br>
+        <br>
+        <br>
+        <label>Saldo bruto:
+        <br>
+        <input type="text" name="saldob" id="sbi" readonly="readonly" class="imput_text"></label>
+        <br>
+        <label>Comision:
+        <br>
+        <input type="text" name="comisionn" id="comisioni" readonly="readonly" class="imput_text"></label>
+        <br>
+        <input type="reset" name="borrari" value="Borrar Datos" onclick="borrar()">
+    </form>
+    
+</body>
+</html>

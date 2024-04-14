@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuento</title>
+    <script src="Descuento.js"></script>
+</head>
+<body>
+    <form method="post" name="formulario" id="formulario" onsubmit="return validarn(event)">
+    <p>
+        Ingrese el total de su compra sin descuento.
+    </p>
+    <Label>Total:
+    <br>
+    <input type="number" name="total" id="totali"></Label>
+    <br>
+    <input type="button" value="Calcular con descuento" name="Enviar" onclick="ganancia()">
+    <br>
+    <input type="reset" name="borrari" value="Borrar Datos" onclick="borrar()">
+</form>
+</body>
+</html>

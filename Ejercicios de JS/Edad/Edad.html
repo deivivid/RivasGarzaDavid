@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad</title>
+    <script src="Edad.js"></script>
+</head>
+<body>
+    <form method="post" name="formulario" id="formulario" onsubmit="return validarn(event)">
+        <p>
+            Ingrese el año en que nacio y el año actual
+        </p>
+        <Label>Año de nacimiento:
+        <br>
+        <input type="number" name="añon" id="añoni"></Label>
+        <br>
+        <Label>Año actual:
+        <br>
+        <input type="number" name="añoa" id="añoai"></Label>
+        <br>
+        <input type="button" value="Calcular" name="Enviar" onclick="edadf()">
+        <br>
+        <br>
+        <br>
+        <label>Edad:
+        <br>
+        <input type="text" name="Edad" id="edadi" readonly="readonly" class="imput_text"></label>
+        <br>
+        <input type="reset" name="borrari" value="Borrar Datos" onclick="borrar()">
+    </form>
+    
+</body>
+</html>

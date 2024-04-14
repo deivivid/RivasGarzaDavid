@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family:'8-BIT WONDER' ;
+    src: url('../Portafolio de evidencias/css/8-BIT WONDER.TTF');
+}
+body{
+    background-color: #BC7FCD;
+    font-family: '8-BIT WONDER', 'Comic Sans SM';
+    }
+    .title{
+        color: #FB9AD1;
+        font-size: 50px;
+        -webkit-text-stroke: 1px #FFCDEA;
+        
+    }
+    .button {
+        --bg: #86469C;
+        --hover-bg: #FB9AD1;
+        --hover-text: #000;
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid var(--bg);
+        border-radius: 4px;
+        padding: 0.8em 2em;
+        background: var(--bg);
+        transition: 0.2s;
+        font-family: '8-BIT WONDER', 'Comic Sans SM';
+      }
+      
+      .button:hover {
+        color: var(--hover-text);
+        transform: translate(-0.25rem, -0.25rem);
+        background: var(--hover-bg);
+        box-shadow: 0.25rem 0.25rem var(--bg);
+        font-family: '8-BIT WONDER', 'Comic Sans SM';
+      }
+      
+      .button:active {
+        transform: translate(0);
+        box-shadow: none;
+        font-family: '8-BIT WONDER', 'Comic Sans SM';
+      }
+      
