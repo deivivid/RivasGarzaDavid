@@ -1,11 +1,11 @@
 @font-face {
-    font-family:'8-BIT WONDER' ;
-    src: url('8-BIT WONDER.ttf');
+    font-family:'8BIT WONDER' ;
+    src: url('./8-BIT WONDER.TTF');
 }
  
 body {background-color: #3F1651;
     background-image: url('Vector.png');
-    font-family:'8-BIT WONDER', 'Comic Sans MS' ;
+    font-family:'8BIT WONDER', 'Comic Sans MS' ;
     font-size:medium;
     color: #ffffff;
     text-shadow: 5px 5px #000000;
